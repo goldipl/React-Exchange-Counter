@@ -65,9 +65,7 @@ class ExchangeCounter extends React.Component {
       return <span> kWh</span>
     } else if (select === "cola") {
       return <span> l</span>
-    } else if (select === "oranges") {
-      return <span> kg</span>
-    } else if (select === "bananas") {
+    } else if (select === "oranges" || select === "bananas") {
       return <span> kg</span>
     }
   }
